@@ -1,0 +1,54 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: User’s Guide
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Home
+    output: web, pdf
+    folderitems:
+
+    - title: Overview 
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Instance list
+      url: /Home_instance_list.html
+      output: web, pdf
+
+    - title: Licence & Support
+      url: /Home_licence_and_support.html
+      output: web, pdf
+
+  - title: Tutorial
+    output: web, pdf
+    folderitems:
+
+    - title: Installation
+      url: /Tutorial_installation.html
+      output: web, pdf
+
+    - title: Running
+      url: /Tutorial_running.html
+      output: web, pdf
+
+    - title: Development 
+      url: /Tutorial_development.html
+      output: web, pdf
+
+

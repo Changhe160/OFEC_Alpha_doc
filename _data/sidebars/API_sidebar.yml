@@ -1,0 +1,86 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: The OFEC API
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Problem
+    output: web, pdf
+
+    folderitems:
+    - title: problem
+      url: /Problem_problem.html
+      output: web, pdf
+
+    - title: continuous
+      url: /Problem_continuous.html
+      output: web, pdf
+
+  - title: Algorithm
+    output: web, pdf
+
+    folderitems:
+    - title: algorithm
+      url: /Algorithm_algorithm.html
+      output: web, pdf
+
+    - title: population
+      url: /Algorithm_population.html
+      output: web, pdf
+
+    - title: DE::population
+      url: /Algorithm_DE_pop.html
+      output: web, pdf
+
+    - title: PSO::population
+      url: /Algorithm_PSO_pop.html
+      output: web, pdf
+
+  - title: Other
+    output: web, pdf
+    folderitems:
+    - title: global
+      url: /Other_global.html
+      output: web
+
+    - title: termination
+      url: /Other_termination.html
+      output: web, pdf
+
+    - title: measure
+      url: /Other_typevar.html
+      output: web, pdf
+
+    - title: random
+      url: /Other_random.html
+      output: web, pdf
+
+    - title: utilities
+      url: /Other_utilities.html
+      output: web, pdf
+
+    - title: aliases
+      url: /Other_aliases.html
+      output: web, pdf
+
+    - title: enums
+      url: /Other_enums.html
+      output: web, pdf
+
+    - title: typevar
+      url: /Other_typevar.html
+      output: web, pdf
