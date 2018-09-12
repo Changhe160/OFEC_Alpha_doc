@@ -60,7 +60,7 @@ So if you do not want to use this you also need to
 
 ---------------------------------------------
 
-If the algorithm is **based on population**, it is highly recommended to create a derived class inherited from class [population][Algorithm_population].
+If the algorithm is **based on population**, it is highly recommended to create a derived class inherited from [population][Algorithm_population].
 You still need to
 * define the `(constructor)` function that takes one `param_map&` parameter.
 
@@ -68,6 +68,10 @@ The member function `initialize` has been overridden to **initialize and evaluat
 The member function `run_` has been overridden to **repeatly evolve the population** until the terminatin condition is reached.
 But the evolving process is not given. So you need to 
 * override the member function `evolve`, which defines the **operation in a single iteration**.
+
+**Note that**, population is a class template. 
+The only template parameter determines the type of [`individual`][Algorithm_individual], which is inherited from class solution,
+and serves as the basic unit of the population.
 
 ---------------------------------------------
 
