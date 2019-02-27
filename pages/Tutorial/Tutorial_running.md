@@ -77,8 +77,8 @@ void CRDE::record()	{
 ```
 The information will be recorded **every certain evaluations**.
 The **sample frequency** is determined by the value of `SF` in the command arguments.
-(**Note that**, since we called `problem::get_sofar_best()` here, we must **turn on the evaluation monitor switch** 
-by adding the sentence `set_eval_monitor_flag(true)` in the member function `initialize()` of the problem class)
+**Note that**, since we called `problem::get_sofar_best()` here, we must **turn on the evaluation monitor switch** 
+by calling `global::ms_global->m_problem->set_eval_monitor_flag(true)` before running the algorithm.
 3. In ["/run/user_initialization.cpp"](https://github.com/Changhe160/OFEC_Alpha/blob/master/run/user_initialization.cpp) find function `void after_run()`.
 In `void after_run()`, call function `measure::get_measure()->output_progr()` to output the information every certain evaluations, 
 and call funtion `measure::get_measure()->output_final()` to output the last recorded information. For example:
