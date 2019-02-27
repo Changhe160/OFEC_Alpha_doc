@@ -30,6 +30,10 @@ entries:
       url: /Problem_continuous.html
       output: web, pdf
 
+    - title: TSP
+      url: /Problem_TSP.html
+      output: web, pdf
+
   - title: Algorithm
     output: web, pdf
 
@@ -38,8 +42,16 @@ entries:
       url: /Algorithm_algorithm.html
       output: web, pdf
 
+    - title: solution
+      url: /Algorithm_solution.html
+      output: web, pdf
+
     - title: population
       url: /Algorithm_population.html
+      output: web, pdf
+
+    - title: individual
+      url: /Algorithm_individual.html
       output: web, pdf
 
     - title: DE::population

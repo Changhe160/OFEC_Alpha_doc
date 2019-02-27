@@ -49,9 +49,9 @@ folder: Home
 
 | Name                           | Source |
 | ------------------------------ | ------ |
-| ZDT (1-4,6)                    |        |
-| [DTLZ (1-4)](https://github.com/Changhe160/OFEC_Alpha/blob/master/instance/problem/continuous/multi_objective/DTLZ/DTLZ.h) | [Scalable Test Problems for Evolutionary Multiobjective Optimization (2005)](https://link.springer.com/chapter/10.1007%2F1-84628-137-7_6) |
-| MOEA_F (1-9)                   |        |
+| ZDT                            |        |
+| DTLZ                           | [Scalable Test Problems for Evolutionary Multiobjective Optimization (2005)](https://link.springer.com/chapter/10.1007%2F1-84628-137-7_6) |
+| MOEA_F                         |        |
 
 ### Combinatorial Optimization
 
@@ -60,7 +60,7 @@ folder: Home
 | OneMax                         |        |
 | MKP                            |        |
 | QAP                            |        |
-| TSP                            |        |
+| [TSP][Problem_TSP]             |        |
 
 ### Real World Optimization
 
