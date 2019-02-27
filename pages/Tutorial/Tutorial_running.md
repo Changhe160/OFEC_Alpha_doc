@@ -59,7 +59,7 @@ Different algorithms may output different data, so several steps need following 
 In `void before_run()`, call function `measure::initialize(...)`. 
 The first parameter must be `global::ms_arg.at("numRun")`.
 The second parameter are a vector of string which denotes the headers of recorded information. For example:
-```
+```cpp
 void before_run() {
 	measure::initialize(global::ms_arg.at("numRun"), std::vector<std::string>({ "Evaluations", "Best objective value" }));
 }
@@ -68,7 +68,7 @@ void before_run() {
 In `void record()` call function `measure::get_measure()->record(...)`.
 The first parameter must be `global::ms_global.get()`.
 The **rest parameters are the information you want to record**. For example:
-```
+```cpp
 void CRDE::record()	{
 	size_t evals = CONTINOUS_CAST->evaluations();
 	real best = problem::get_sofar_best<solution<>>(0)->objective(0);
@@ -82,7 +82,7 @@ by calling `global::ms_global->m_problem->set_eval_monitor_flag(true)` before ru
 3. In ["/run/user_initialization.cpp"](https://github.com/Changhe160/OFEC_Alpha/blob/master/run/user_initialization.cpp) find function `void after_run()`.
 In `void after_run()`, call function `measure::get_measure()->output_progr()` to output the information every certain evaluations, 
 and call funtion `measure::get_measure()->output_final()` to output the last recorded information. For example:
-```
+```cpp
 void after_run() {
 	measure::get_measure()->output_progr();
 	measure::get_measure()->output_final();

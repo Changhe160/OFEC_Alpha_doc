@@ -1,5 +1,5 @@
 ---
-title: The first release of the OFEC documentaion
+title: The first release of OFEC documentaion
 tags: news
 sidebar: home_sidebar
 permalink: first-release-of-doc.

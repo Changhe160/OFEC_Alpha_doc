@@ -6,7 +6,7 @@ permalink: Problem_continuous.html
 folder: Problem
 ---
 
-`class` [`Problem`][Problem_problem] &larr; `class continuous` 
+[`Problem`][Problem_problem] &larr; `continuous` 
 
 ## Data members
 
