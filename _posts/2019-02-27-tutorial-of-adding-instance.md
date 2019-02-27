@@ -11,7 +11,7 @@ summary: "An tutorial telling how to add the manual of a instance of problem, al
 1. Clone the GitHub repository [OFEC_Alpha_doc](https://github.com/Changhe160/OFEC_Alpha_doc);
 1. Create and enter into your own branch;
 1. Build a local Jekyll environment according to the [guide](https://wangjunchen567.github.io/build-local-jekyll-environment/);
-1. Open the server address [http://127.0.0.1:4000/OFEC_Alpha_doc/](http://127.0.0.1:4000/OFEC_Alpha_doc/) to see the website changes instantly.
+1. Open the server address [http://127.0.0.1:4008/OFEC_Alpha_doc/](http://127.0.0.1:4008/OFEC_Alpha_doc/) to see the website changes instantly.
 
 ## Add a problem instance
 
