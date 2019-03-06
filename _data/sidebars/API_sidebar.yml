@@ -34,6 +34,10 @@ entries:
       url: /Problem_TSP.html
       output: web, pdf
 
+    - title: DVRP
+      url: /Problem_DVRP.html
+      output: web, pdf
+
   - title: Algorithm
     output: web, pdf
 

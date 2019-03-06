@@ -32,25 +32,14 @@ bin/r [command agruments]
 
 `PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
 
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
-
 **Multi-Modal Optimization Problem**
 
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
-
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
 
 **Constrainded Optimization Problem**
 
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
-
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
 
 **Multi-Objective Optimization Problem**
 
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
-
-`PN=Sphere ND=2 AN=CRDE PS=100 ME=10000 SF=100`
 
 ## Output experimental results
 
