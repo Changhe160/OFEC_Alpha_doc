@@ -49,9 +49,11 @@ folder: Home
 
 | Name                           | Source |
 | ------------------------------ | ------ |
-| ZDT                            |        |
-| DTLZ                           | [Scalable Test Problems for Evolutionary Multiobjective Optimization (2005)](https://link.springer.com/chapter/10.1007%2F1-84628-137-7_6) |
-| MOEA_F                         |        |
+| [ZDT][Problem_ZDT]                             |        |
+| [DTLZ][Problem_DTLZ]                           | [Scalable Test Problems for Evolutionary Multiobjective Optimization (2005)](https://link.springer.com/chapter/10.1007%2F1-84628-137-7_6) |
+| [MOEA_F][Problem_MOEA_F]                       |        |
+| [GLT][Problem_GLT]                             |        |
+| [UF][Problem_UF]                               |        |
 
 ### Combinatorial Optimization
 
