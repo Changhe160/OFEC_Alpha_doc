@@ -21,7 +21,7 @@ Notes:
 PN:name of problem
 ND:dimensions of variables
 GLT1~GLT5 all default to 2 objectives
-GLT6 default to 2 objectives
+GLT6 default to 3 objectives
 ```
 ## Data Members
 
