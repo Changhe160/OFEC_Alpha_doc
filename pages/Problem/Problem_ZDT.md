@@ -27,6 +27,6 @@ ZDT1~ZDT6 all default to 2 objectives
 ## Member Functions
 |Name|Information|
 |-|-|
-|**void evaluate_objective(real *x, std::vector<real> &obj);**|It is used to calculate the objective value of each solution.|
+|**evaluate_objective**|It is used to calculate the objective value of each solution.|
 
 {% include links.html %}
