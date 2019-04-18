@@ -57,10 +57,9 @@ entries:
     - title: UF
       url: /Problem_UF.html
       output: web, pdf
-      
-      
+
   - title: Algorithm
-      output: web, pdf
+    output: web, pdf
 
     folderitems:
     - title: algorithm
