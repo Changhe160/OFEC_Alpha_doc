@@ -19,7 +19,7 @@ PN=MOP_ZDT1 ND=30
 Notes:
 ```
 PN:name of problem
-ND:dimensions of solution
+ND:dimensions of variables
 ZDT1~ZDT6 all default to 2 objectives
 ```
 ## Data Members
