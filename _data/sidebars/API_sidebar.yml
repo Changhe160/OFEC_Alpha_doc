@@ -37,6 +37,26 @@ entries:
     - title: DVRP
       url: /Problem_DVRP.html
       output: web, pdf
+      
+    - title: ZDT
+      url: /Problem_ZDT.html
+      output: web, pdf
+      
+    - title: GLT
+      url: /Problem_GLT.html
+      output: web, pdf    
+      
+    - title: MOEA_F
+      url: /Problem_MOEA_F.html
+      output: web, pdf
+      
+    - title: DTLZ
+      url: /Problem_DTLZ.html
+      output: web, pdf
+      
+    - title: UF
+      url: /Problem_UF.html
+      output: web, pdf
 
   - title: Algorithm
     output: web, pdf
