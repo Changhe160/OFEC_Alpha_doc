@@ -8,7 +8,7 @@ folder: Problem
 
 ## Class Inheritance
 
-[`problem`] &larr; `continuous`&larr; `MOEA_FBase`&larr; `MOEA_F`&larr; `MOEA_F1`
+[`problem`][Problem_problem] &larr; [`continuous`][Problem_continuous] &larr; `MOEA_FBase`&larr; `MOEA_F`&larr; `MOEA_F1`
 
 ## Description
 
