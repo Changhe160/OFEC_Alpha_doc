@@ -2,7 +2,7 @@
 title: MOEA_F
 last_updated: April 18, 2019 by Xiaofang Wu
 sidebar: API_sidebar
-permalink: Problem_ZDT.html
+permalink: Problem_MOEA_F.html
 folder: Problem
 ---
 
