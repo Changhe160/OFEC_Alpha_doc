@@ -1,0 +1,101 @@
+# ----
+# Site
+
+title: OFEC
+url: changhe160.github.io
+baseurl: /OFEC_Alpha_doc
+repository: Changhe160/OFEC_Alpha_doc
+google_analytics_key:
+show_full_navigation: false
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: A C++ Open Framework of Evolutionary Algorithm.
+author:
+  name: Changhe Li
+  email: changhe.lw@gmail.com
+  twitter: # twitter username without the @ symbol
+social:
+  name: OFEC
+  links:
+    - https://github.com/Changhe160/OFEC_Alpha
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  tutorials:
+    title: Tutorial
+    permalink: /:path/
+    output: true
+
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "tutorials"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major
+
+markdown: kramdown
