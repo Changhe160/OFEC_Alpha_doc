@@ -5,9 +5,8 @@ order: 3
 ---
 
 #### String command example
-```
-AN=SA
-```
+
+`AN=SA`
 
 #### Reference
 

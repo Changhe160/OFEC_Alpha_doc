@@ -4,12 +4,6 @@ category: Algorithm
 order: 4
 ---
 
-#### String command example
-
-```
-AN=DE-rand-1 PS=100
-```
-
 #### Reference
 
 [R. Storn, and K. Price. (1997).
@@ -101,6 +95,10 @@ Links: [`individual`](../../Core/individual)
 
 ### DE/rand/1
 
+#### String command example
+
+`AN=DE-rand-1 PS=100`
+
 #### Mutation strategy
 
 ***v*** = ***x***$\_{r_1}$ + ***F*** $\cdot$ (***x***$\_{r_2}$ - ***x***$\_{r_3}$) 
@@ -119,6 +117,10 @@ class DE_rand_1 : public Canonical_DE
 
 ### DE/best/2
 
+#### String command example
+
+`AN=DE-best-2 PS=100`
+
 #### Mutation strategy
 
 ***v*** = ***x***$\_{best}$ + ***F*** $\cdot$ (***x***$\_{r_1}$ - ***x***$\_{r_2}$) + ***F*** $\cdot$ (***x***$\_{r_3}$ - ***x***$\_{r_4}$)
@@ -136,6 +138,10 @@ class DE_best_2 : public Canonical_DE
 |`initialize()`|Set the mutation strategy to `DE::mutation_strategy::best_2`|
 
 ### DE/nrand/1
+
+#### String command example
+
+`AN=DE-nrand-1 PS=100`
 
 #### Reference
 

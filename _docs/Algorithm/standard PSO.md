@@ -4,12 +4,6 @@ category: Algorithm
 order: 5
 ---
 
-#### String command example
-
-```
-AN=SPSO11 PS=100
-```
-
 #### Reference
 
 [R. Eberhart and J. Kennedy. (1995).
@@ -92,6 +86,10 @@ Links: [`individual`](../../Core/individual)
 
 ### SPSO-07
 
+#### String command example
+
+`AN=SPSO01 PS=100`
+
 #### Reference
 
 C. Maurice. (2007). ["Standard pso 2007 (spso-07)"](http://www.particleswarm.info/Programs.html).
@@ -114,6 +112,10 @@ class particle07 final : public particle
 ```c++
 class SPSO07 : public algorithm
 ```
+
+#### String command example
+
+`AN=SPSO01 PS=100`
 
 #### Data member
 
