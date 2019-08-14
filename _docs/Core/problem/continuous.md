@@ -1,7 +1,8 @@
 ---
 title: continuous
-category: Problem
-order: 2
+category: Core
+subcategory: problem
+order: 4
 ---
 
 #### Class view

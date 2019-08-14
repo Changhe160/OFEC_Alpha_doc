@@ -1,7 +1,7 @@
 ---
 title: global
 category: Core
-order: 1
+order: 2
 ---
 
 >In OFEC, all instances involved in a run are mananged by a `global` instance.

@@ -1,6 +1,7 @@
 ---
 title: problem
-category: Problem
+category: Core
+subcategory: problem
 order: 1
 ---
 

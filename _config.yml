@@ -78,6 +78,7 @@ defaults:
         type: Article
       _comments:
         category: Group navigation links with this field
+        subcategory: Sub-Gruop navigation links
         order: Used to sort links in the navigation
       _options:
         content:

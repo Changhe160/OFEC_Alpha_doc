@@ -1,7 +1,8 @@
 ---
 title: DTLZ
-category: Problem
-order: 31
+category: Instance
+subcategory: problem
+order: 22
 ---
 
 #### Reference

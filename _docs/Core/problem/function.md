@@ -1,7 +1,8 @@
 ---
 title: function
-category: Problem
-order: 3
+category: Core
+subcategory: problem
+order: 5
 ---
 
 #### Class view

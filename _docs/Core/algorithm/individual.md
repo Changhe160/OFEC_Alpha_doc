@@ -1,7 +1,8 @@
 ---
 title: individual
 category: Core
-order: 8
+subcategory: algorithm
+order: 5
 ---
 
 #### Class view

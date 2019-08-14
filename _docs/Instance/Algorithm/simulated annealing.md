@@ -1,7 +1,8 @@
 ---
 title: Simulated annealing
-category: Algorithm
-order: 3
+category: Instance
+subcategory: algorithm
+order: 1
 ---
 
 #### String command example

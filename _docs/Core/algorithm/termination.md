@@ -1,7 +1,8 @@
 ---
 title: termination
 category: Core
-order: 5
+subcategory: algorithm
+order: 2
 ---
 
 > The termination instance also calculates the runtime of algorithm. The timer starts when the termination instance is constructed. 

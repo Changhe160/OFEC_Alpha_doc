@@ -1,6 +1,7 @@
 ---
 title: NSGA-II
-category: Algorithm
+category: Instance
+subcategory: algorithm
 order: 10
 ---
 

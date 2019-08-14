@@ -1,7 +1,8 @@
 ---
 title: Classical-GOP
-category: Problem
-order: 8
+category: Instance
+subcategory: problem
+order: 1
 ---
 
 ### Sphere

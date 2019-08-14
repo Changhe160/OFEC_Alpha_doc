@@ -1,7 +1,8 @@
 ---
 title: CEC2005-GOP
-category: Problem
-order: 10
+category: Instance
+subcategory: problem
+order: 2
 ---
 
 #### Reference 

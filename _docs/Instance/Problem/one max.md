@@ -1,7 +1,8 @@
 ---
 title: One Max
-category: Problem
-order: 50
+category: Instance
+subcategory: problem
+order: 51
 ---
 
 #### Class view

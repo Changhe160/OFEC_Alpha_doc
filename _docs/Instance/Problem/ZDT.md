@@ -1,7 +1,8 @@
 ---
 title: ZDT
-category: Problem
-order: 32
+category: Instance
+subcategory: problem
+order: 21
 ---
 
 #### Reference

@@ -1,7 +1,8 @@
 ---
 title: UF
-category: Problem
-order: 34
+category: Instance
+subcategory: problem
+order: 25
 ---
 
 #### Reference

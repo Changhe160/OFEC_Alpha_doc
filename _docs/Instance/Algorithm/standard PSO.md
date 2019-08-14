@@ -1,7 +1,8 @@
 ---
 title: Standard PSO
-category: Algorithm
-order: 5
+category: Instance
+subcategory: algorithm
+order: 3
 ---
 
 #### Reference

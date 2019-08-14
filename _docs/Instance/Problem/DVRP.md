@@ -1,6 +1,7 @@
 ---
 title: DVRP
-category: Problem
+category: Instance
+subcategory: problem
 order: 61
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Canonical DE
-category: Algorithm
-order: 4
+category: Instance
+subcategory: algorithm
+order: 2
 ---
 
 #### Reference

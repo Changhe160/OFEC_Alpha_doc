@@ -1,7 +1,8 @@
 ---
 title: algorithm
-category: Algorithm
-order: 2
+category: Core
+subcategory: algorithm
+order: 1
 ---
 
 #### Class view

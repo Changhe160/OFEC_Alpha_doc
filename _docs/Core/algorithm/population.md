@@ -1,7 +1,8 @@
 ---
 title: population
 category: Core
-order: 9
+subcategory: algorithm
+order: 6 
 ---
 
 > The population is defined as a class template to support member individuals of different variable or objective encoding. 

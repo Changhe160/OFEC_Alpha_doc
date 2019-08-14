@@ -1,7 +1,8 @@
 ---
 title: solution
 category: Core
-order: 7
+subcategory: algorithm
+order: 4
 ---
 
 > The solution in OFEC is defined as a class template to support solution representation in both continuous and combinatorial space or using hybrid encoding schemes.

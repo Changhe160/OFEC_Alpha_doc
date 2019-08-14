@@ -1,7 +1,8 @@
 ---
 title: MOEA-F
-category: Problem
-order: 30
+category: Instance
+subcategory: problem
+order: 23
 ---
 
 #### Reference

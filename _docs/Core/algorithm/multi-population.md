@@ -1,5 +1,6 @@
 ---
 title: multi-population
 category: Core
-order: 10
+subcategory: algorithm
+order: 7
 ---

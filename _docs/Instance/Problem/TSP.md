@@ -1,7 +1,8 @@
 ---
 title: TSP
-category: Problem
-order: 51
+category: Instance
+subcategory: problem
+order: 52
 ---
 
 #### String command example

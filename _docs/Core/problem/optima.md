@@ -1,5 +1,6 @@
 ---
 title: optima
 category: Core
-order: 4
+subcategory: problem
+order: 2
 ---

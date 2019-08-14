@@ -1,7 +1,7 @@
 ---
 title: Aliases and Enums
 category: Core
-order: 2
+order: 1
 ---
 
 #### Aliases

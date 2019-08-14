@@ -1,7 +1,8 @@
 ---
 title: GLT
-category: Problem
-order: 33
+category: Instance
+subcategory: problem
+order: 24
 ---
 
 #### Reference

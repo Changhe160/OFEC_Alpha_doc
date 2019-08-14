@@ -1,6 +1,7 @@
 ---
 title: NSGA-III
-category: Algorithm
+category: Instance
+subcategory: algorithm
 order: 11
 ---
 
