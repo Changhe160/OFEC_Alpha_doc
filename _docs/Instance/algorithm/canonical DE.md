@@ -31,7 +31,7 @@ order: 2
 ```c++
 class Canonical_DE : public algorithm
 ```
-Link: [`algorithm`](../algorithm)
+Link: [`algorithm`](../../../Core/algorithm/algorithm)
 
 #### Data members
 
@@ -55,7 +55,7 @@ Link: [`algorithm`](../algorithm)
 template<typename Individual>
 class DE::population : public population<Individual>
 ```
-Links: [`population`](../../Core/population)
+Links: [`population`](../../../Core/algorithm/population)
 
 #### Data members
 
@@ -77,7 +77,7 @@ Links: [`population`](../../Core/population)
 ```c++
 class DE::individual : public individual<variable_vector<real>, real>
 ```
-Links: [`individual`](../../Core/individual)
+Links: [`individual`](../../../Core/algorithm/individual)
 
 #### Data members
 

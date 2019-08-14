@@ -17,7 +17,7 @@ order: 11
 template<typename Individual>
 class NSGAIII : public population<Individual> 
 ```
-Links: [``population``](../../Core/population)
+Links: [``population``](../../../Core/algorithm/population)
 
 #### Data members
 

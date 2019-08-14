@@ -19,7 +19,7 @@ order: 3
 		1. Initialize $\mathbf{p}_i=\\{$***x***, ***v***, ***x***$\_{pbest}$, *f*(***x***), *f*(***x***$\_{pbest}$)$\\}$
 		1. Evaluate *f*(***x***)
 		1. $\\{$***x***$\_{pbest}$, *f*(***x***$\_{pbest}$)$\\}\gets\\{$ ***x***, *f*(***x***)$\\}$
-	1. [*update_best*](../../Core/population/#major-member-functions)()
+	1. [*update_best*](../../../Core/algorithm/population/#major-member-functions)()
 1. While *termination criterion* is not fulfilled:
 	1. For each $\mathbf{p}_i\in \mathbb{P}$ (with random sequence):
 		1. *set_neighborhood*()
@@ -30,7 +30,7 @@ order: 3
 		1. Evaluate *f*(***u***)
 		1. If *better*(*f*(***x***), *f*(***x***$\_{pbest}$)):
 			1. $\\{$***x***$\_{pbest}$, *f*(***x***$\_{pbest}$) $\\}\gets\\{$***x***, *f*(***x***)$\\}$
-			1. [*update_best*](../../Core/population/#major-member-functions)($\\{$***x***, *f*(***x***)$\\}$)
+			1. [*update_best*](../../../Core/algorithm/population/#major-member-functions)($\\{$***x***, *f*(***x***)$\\}$)
 1. Output results
 
 ### swarm
@@ -41,7 +41,7 @@ order: 3
 template <typename type_particle>
 class swarm : public population<type_particle> 
 ```
-Links: [`population`](../../Core/population)
+Links: [`population`](../../../Core/algorithm/population)
 
 #### Data members
 
@@ -67,7 +67,7 @@ Links: [`population`](../../Core/population)
 ```c++
 class particle : public individual<> 
 ```
-Links: [`individual`](../../Core/individual)
+Links: [`individual`](../../../Core/algorithm/individual)
 
 #### Data members
 

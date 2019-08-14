@@ -30,15 +30,15 @@ order: 1
 ```c++
 class simulated_annealing : public algorithm
 ```
-Link: [``algorithm``](../algorithm)
+Link: [``algorithm``](../../../Core/algorithm/algorithm)
 
 #### Added data members
 
 |Name|Type|Utility|
 |-|-|-|
 |``m_k_max``|``size_t``|Maximum number of evalutions|
-|``m_s``|[``solution<>``](../../Core/solution)|Candidate state (solution) $s$ |
-|``m_s_new``|[``solution<>``](../../Core/solution)|Neighboring state $s_{new}$|
+|``m_s``|[``solution<>``](../../../Core/algorithm/solution)|Candidate state (solution) $s$ |
+|``m_s_new``|[``solution<>``](../../../Core/algorithm/solution)|Neighboring state $s_{new}$|
 
 #### Overridden member functions
 

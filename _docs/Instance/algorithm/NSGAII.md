@@ -17,7 +17,7 @@ A Fast and Elitist Multiobjective Genetic Algorithm : NSGA-II.
 template<typename Individual>
 class NSGAII : public population<Individual>
 ```
-Links: [`population`](../../Core/population)
+Links: [`population`](../../../Core/algorithm/population)
 
 #### Data members
 
@@ -31,7 +31,7 @@ Links: [`population`](../../Core/population)
 |-|-|
 |`evolve()`|Optimization operators in each iteration|
 |`evolve_mo()`|Reproduction process (pure virtual function here)|
-|`sort()`|Use [fast nondominated sorting](../../Utility/nondominated sorting/#fast-nondominated-sorting-fns) to sort `m_offspring`|
+|`sort()`|Use [fast nondominated sorting](../../../Utility/nondominated sorting/#fast-nondominated-sorting-fns) to sort `m_offspring`|
 |`eval_dens()`|Survivor selection process|
 
 ### NSGAII-SBXRM
