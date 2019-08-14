@@ -10,4 +10,4 @@ This is an open source project with the aim of providing an open framework for e
 - It supports solution representation in continuous and combinatorial space, or using hybrid encoding schemes. 
 - It can be run in both Windows and Linux environments with a single thread or multi-thread mode.
 
-OFEC has three basic components: algorithm, problem, and performance measurements. The benchmark problems and optimization algorithms implemented in this platform are listed in the [**algorithm list**](./I Tutorial/algorithm list) and the [**problem list**](./I Tutorial/problem list).
+OFEC has three basic components: algorithm, problem, and performance measurements. The benchmark problems and optimization algorithms implemented in this platform are listed in the [**algorithm list**](Tutorial/algorithm list) and the [**problem list**](Tutorial/problem list).

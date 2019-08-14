@@ -15,7 +15,7 @@ order: 1
 |-|-|-|
 |``m_name``|``string``|The string command after ``AN=``|
 |``m_term``|``unique_ptr<``[``termination``](../../Core/termination)``>``|The termination criterion|
-|``m_parameters``|[``param_map``](../../Core/Aliases and Enums)|Parameters|
+|``m_parameters``|[``param_map``](../../Core/definition)|Parameters|
 
 #### Major member functions
 

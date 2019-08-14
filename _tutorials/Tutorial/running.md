@@ -4,7 +4,7 @@ category: Tutorial
 order: 2
 ---
 
-> OFEC needs ***command arguments*** to determine the algorithm, problem and some other experimental parameters. Refer to the [documentation](../../Algorithm/simulated annealing) to get needed string commands.  
+> OFEC needs ***command arguments*** to determine the algorithm, problem and some other experimental parameters. Refer to the [documentation](../../Instance/algorithm/simulated annealing) to get needed string commands.  
 
 #### Run OFEC in **Visual Studio**
 

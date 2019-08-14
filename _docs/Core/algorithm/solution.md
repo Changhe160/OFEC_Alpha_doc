@@ -23,7 +23,7 @@ class solution : public solution_base
 |-|-|-|
 |`m_var`|`variable_encoding`|Decision variables|
 |`m_obj`|`vector<objective_type>`|Objective values|
-|`m_constraint_value`|`vector<`[`real`](../../Core/Aliases and Enums)`>`|The constraint violation|
+|`m_constraint_value`|`vector<`[`real`](../../definition)`>`|The constraint violation|
 
 #### Major member functions
 

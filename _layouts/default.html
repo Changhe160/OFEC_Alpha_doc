@@ -76,7 +76,10 @@
 											<a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 										{% endfor %}
 									</ul>
-								{% else %}
+								{% endif %}
+							{% endfor %}
+							{% for subgroup in subgrouped %}
+								{% if subgroup.name != '' %}
 									{% assign items = subgroup.items | sort: 'order' %}
 									<li class="nav-item sub-level {% if group.name == page.category and subgroup.name == page.subcategory %}current{% endif %}">
 									<a href="{{site.baseurl}}{{items.first.url}}">{{ subgroup.name }}</a>

@@ -10,23 +10,23 @@ order: 3
 
 |Name|Problem Tags|
 |-|-|
-|[CEC2005-GOP](../../Problem/CEC2005-GOP)|`ConOP` `SOP` `GOP`|
-|[Classical-GOP](../../Problem/classical-GOP)|`ConOP` `SOP` `GOP`|
-|[ZDT](../../Problem/ZDT)|`ConOP` `MOP`|
-|[DTLZ](../../Problem/DTLZ)|`ConOP` `MOP`|
-|[MOEA-F](../../Problem/MOEA-F)|`ConOP` `MOP`|
-|[GLT](../../Problem/GLT)|`ConOP` `MOP`|
-|[UF](../../Problem/UF)|`ConOP` `MOP`|
+|[CEC2005-GOP](../../Instance/problem/CEC2005-GOP)|`ConOP` `SOP` `GOP`|
+|[Classical-GOP](../../Instance/problem/classical-GOP)|`ConOP` `SOP` `GOP`|
+|[ZDT](../../Instance/problem/ZDT)|`ConOP` `MOP`|
+|[DTLZ](../../Instance/problem/DTLZ)|`ConOP` `MOP`|
+|[MOEA-F](../../Instance/problem/MOEA-F)|`ConOP` `MOP`|
+|[GLT](../../Instance/problem/GLT)|`ConOP` `MOP`|
+|[UF](../../Instance/problem/UF)|`ConOP` `MOP`|
 
 ### Combinatorial Optimization
 
 |Name|Problem Tags|
 |-|-|
-|[OneMax](../../Problem/one max)|`ComOP` `SOP`|
-|[TSP](../../Problem/TSP)|`ComOP` `SOP`|
+|[OneMax](../../Instance/problem/one max)|`ComOP` `SOP`|
+|[TSP](../../Instance/problem/TSP)|`ComOP` `SOP`|
 
 ### Real World Optimization
 
 |Name|Problem Tags|
 |-|-|
-|[DVRP](../../Problem/DVRP)|`DVRP` `MOP`|
+|[DVRP](../../Instance/problem/DVRP)|`DVRP` `MOP`|

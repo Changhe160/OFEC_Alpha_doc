@@ -10,26 +10,26 @@ order: 4
 
 |Name|Applicable Prolems' Tags|
 |-|-|
-|[Simulated Annealing](../../Algorithm/simulated annealing)|``ConP``|
+|[Simulated Annealing](../../Instance/algorithm/simulated annealing)|``ConP``|
 
 ### Genetic Algorithm (GA)
 
 |Name|Applicable Prolems' Tags|
 |-|-|
-|[NSGAII-SBXRM](../../Algorithm/NSGAII/#nsgaii-sbxrm)|``MOP`` ``ConP``|
-|[NSGAIII-SBXRM](../../Algorithm/NSGAIII/#nsgaiii-sbxrm)|``MOP`` ``ConP``|
+|[NSGAII-SBXRM](../../Instance/algorithm/NSGAII/#nsgaii-sbxrm)|``MOP`` ``ConP``|
+|[NSGAIII-SBXRM](../../Instance/algorithm/NSGAIII/#nsgaiii-sbxrm)|``MOP`` ``ConP``|
 
 ### Differential Evolution (DE)
 
 |Name|Applicable Prolems' Tags|
 |-|-|
-|[DE/rand/1](../../Algorithm/canonical DE/#derand1)|``GOP`` ``MMOP`` ``ConP``|
-|[DE/best/2](../../Algorithm/canonical DE/#debest2)|``GOP`` ``MMOP`` ``ConP``|
-|[DE/nrand/1](../../Algorithm/canonical DE/#denrand1)|``GOP`` ``MMOP`` ``ConP``|
+|[DE/rand/1](../../Instance/algorithm/canonical DE/#derand1)|``GOP`` ``MMOP`` ``ConP``|
+|[DE/best/2](../../Instance/algorithm/canonical DE/#debest2)|``GOP`` ``MMOP`` ``ConP``|
+|[DE/nrand/1](../../Instance/algorithm/canonical DE/#denrand1)|``GOP`` ``MMOP`` ``ConP``|
 
 ### Particle Swarm Optimization (PSO)
 
 |Name|Applicable Prolems' Tags|
 |-|-|
-|[SPSO-07](../../Algorithm/standard PSO/#spso-07)|``GOP`` ``MMOP`` ``ConP``|
-|[SPSO-11](../../Algorithm/standard PSO/#spso-11)|``GOP`` ``MMOP`` ``ConP``|
+|[SPSO-07](../../Instance/algorithm/standard PSO/#spso-07)|``GOP`` ``MMOP`` ``ConP``|
+|[SPSO-11](../../Instance/algorithm/standard PSO/#spso-11)|``GOP`` ``MMOP`` ``ConP``|

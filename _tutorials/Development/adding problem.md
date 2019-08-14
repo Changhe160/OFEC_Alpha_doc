@@ -21,7 +21,7 @@ Besides:
 
 #### Declaration
 
-[One Max](../../Problem/one max) is a simple example for combinatorial optimization algorithms.
+[One Max](../../Instance/problem/one max) is a simple example for combinatorial optimization algorithms.
 
 ```c++
 class one_max : public problem {
@@ -35,7 +35,7 @@ public:
 }
 ```
 
-For continuous optimization problem, it is highly recommended to make it inherited from [`continuous`](../../Problem/continuous).
+For continuous optimization problem, it is highly recommended to make it inherited from [`continuous`](../../Core/problem/continuous).
 
 ```c++
 class sphere : public continuous {
@@ -47,10 +47,10 @@ public:
     //real variable_distance(const solution_base&, const solution_base&) const;
 }
 ```
-- `m_domain` and `m_optima` are added in [`continuous`](../../Problem/continuous);
-- The member function `initialize_solution(s)` has been overridden in [`continuous`](../../Problem/continuous) as a **uniform random initialization** method;
-- The member function `evaluate_(s)` has been overridden in [`continuous`](../../Problem/continuous) as a mixture of `evaluate_objective(x, obj)` and `evaluate_obj_nd_con(x, obj, con)`;
-- The member function `variable_distance(s1, s2)` has been overridden in [`continuous`](../../Problem/continuous) as a euclidean distance calculation method.
+- `m_domain` and `m_optima` are added in [`continuous`](../../Core/problem/continuous);
+- The member function `initialize_solution(s)` has been overridden in [`continuous`](../../Core/problem/continuous) as a **uniform random initialization** method;
+- The member function `evaluate_(s)` has been overridden in [`continuous`](../../Core/problem/continuous) as a mixture of `evaluate_objective(x, obj)` and `evaluate_obj_nd_con(x, obj, con)`;
+- The member function `variable_distance(s1, s2)` has been overridden in [`continuous`](../../Core/problem/continuous) as a euclidean distance calculation method.
 
 ---
 
@@ -59,4 +59,4 @@ public:
 1. In the file "/run/include_problem.h" include the header file that declares the class.
 2. In the file "/run/user_initialization.cpp" use the `REGISTER()` macro to register the class, where:
 	- the 3rd parameter is the **string command** of your defined problem;
-	- the 4th parameter is the [**problem tag**](../../Core/Aliases and Enums/#problem-tags) of problem;
+	- the 4th parameter is the [**problem tag**](../../Core/definition/#problem-tags) of problem;

@@ -1,5 +1,5 @@
 ---
-title: Aliases and Enums
+title: definition
 category: Core
 order: 1
 ---
