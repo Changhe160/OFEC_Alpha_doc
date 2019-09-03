@@ -13,7 +13,7 @@ order: 25
 ```c++
 class UF : public continuous
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 #### Member functions
 

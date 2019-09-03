@@ -7,15 +7,15 @@ order: 22
 
 #### Reference
 
-Deb, K., Thiele, L., Laumanns, M., & Zitzler, E. (2005). 
-"Scalable test problems for evolutionary multiobjective optimization". 
+Deb, K., Thiele, L., Laumanns, M., & Zitzler, E. (2005).
+"Scalable test problems for evolutionary multiobjective optimization".
 In*Evolutionary multiobjective optimization* (pp. 105-145). Springer London.
 
 #### Class view
 ```c++
 class DTLZ : public continuous
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 #### Member functions
 
@@ -25,11 +25,11 @@ Link: [`continuous`](../continuous)
 |`LoadPF()`||
 |`generate_PF()`||
 
-### MOEA-F1
+### DTLZ1
 
 #### String command example
 
-`PN=MOP_DTLZ1 IT=5 NO=3` (`ND=NO-1+IT`)
+`PN=MOP_DTLZ1 IT1=5 NO=3` (`ND=NO-1+IT1`)
 
 #### Class view
 
@@ -37,11 +37,11 @@ Link: [`continuous`](../continuous)
 class DTLZ1 final : public DTLZ
 ```
 
-### MOEA-F2
+### DTLZ2
 
 #### String command example
 
-`PN=MOP_DTLZ2 IT=10 NO=3` (`ND=NO-1+IT`)
+`PN=MOP_DTLZ2 IT1=10 NO=3` (`ND=NO-1+IT1`)
 
 #### Class view
 
@@ -49,11 +49,11 @@ class DTLZ1 final : public DTLZ
 class DTLZ2 final : public DTLZ
 ```
 
-### MOEA-F3
+### DTLZ3
 
 #### String command example
 
-`PN=MOP_DTLZ3 IT=10 NO=3` (`ND=NO-1+IT`)
+`PN=MOP_DTLZ3 IT1=10 NO=3` (`ND=NO-1+IT1`)
 
 #### Class view
 
@@ -61,11 +61,11 @@ class DTLZ2 final : public DTLZ
 class DTLZ3 final : public DTLZ
 ```
 
-### MOEA-F4
+### DTLZ4
 
 #### String command example
 
-`PN=MOP_DTLZ4 IT=5 NO=3` (`ND=NO-1+IT`)
+`PN=MOP_DTLZ4 IT1=5 NO=3` (`ND=NO-1+IT1`)
 
 #### Class view
 
@@ -73,11 +73,11 @@ class DTLZ3 final : public DTLZ
 class DTLZ4 final : public DTLZ
 ```
 
-### MOEA-F6
+### DTLZ6
 
 #### String command example
 
-`PN=MOP_DTLZ6 IT=20 NO=3` (`ND=NO-1+IT`)
+`PN=MOP_DTLZ6 IT1=20 NO=3` (`ND=NO-1+IT1`)
 
 #### Class view
 

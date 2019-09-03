@@ -14,7 +14,7 @@ order: 52
 ```c++
 class travelling_salesman : public problem
 ```
-Link: [`problem`](../problem)
+Link: [`problem`](../../../Core/problem/problem)
 
 #### Data Members
 

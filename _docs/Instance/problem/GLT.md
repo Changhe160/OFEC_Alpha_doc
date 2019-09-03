@@ -13,7 +13,7 @@ order: 24
 ```c++
 class GLT : public continuous
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 #### Member functions
 

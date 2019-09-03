@@ -15,7 +15,7 @@ In Proceedings of the 2002 Congress on Evolutionary Computation. CEC'02. 1: 825-
 ```c++
 class ZDT : public continuous
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 #### Member functions
 

@@ -15,7 +15,7 @@ Technical Report CES-476, Department of Computer Science, University of Essex, 2
 ```c++
 class MOEA_FBase : public continuous
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 #### Member functions
 

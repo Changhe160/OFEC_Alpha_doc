@@ -29,7 +29,7 @@ namespace CEC2005 {
     class composition : public continuous
 }
 ```
-Link: [`continuous`](../continuous)
+Link: [`continuous`](../../../Core/problem/continuous)
 
 ### F15
 

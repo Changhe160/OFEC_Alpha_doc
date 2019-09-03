@@ -11,5 +11,5 @@ order: 1
 ```c++
 class sphere : public function
 ```
-Link: [`function`](../function)
+Link: [`function`](../../../Core/problem/function)
 

@@ -10,6 +10,7 @@ order: 61
 ```c++
 class dynamic_VRP : public Problem
 ```
+Link: [`problem`](../../../Core/problem/problem)
 
 #### Data members
 

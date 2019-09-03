@@ -10,7 +10,7 @@ order: 51
 ```c++
 class one_max : public problem
 ```
-Link: [`problem`](../problem)
+Link: [`problem`](../../../Core/problem/problem)
 
 #### Added data members
 
