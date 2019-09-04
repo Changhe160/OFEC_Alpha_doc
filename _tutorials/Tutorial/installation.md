@@ -4,22 +4,28 @@ category: Tutorial
 order: 1
 ---
 
-Git the repository or download the zip file from [OFEC Alpha](https://github.com/Changhe160/OFEC_Alpha).
+>OFEC does not rely on libraries other than **C++ STL 14**. So to intall OFEC, just download or git clone it from its [**GitHub repo**](https://github.com/Changhe160/OFEC_Alpha), and compile it by the following recommended ways:
 
-#### Compile OFEC in Windows
-For Windows PC, it is recommended to use **Visual Studio 2017/2019** to compile OFEC. Open the project file **OFEC.sln**. Then Use **Build**->**Build Solution** to complile the project.
+#### Windows
 
->
-1. Make sure **Windows SDK Version** and **Platform Toolset** (you can find them in **Project**->**Properties**->**General**) is OK.
-1. Set the solution configuration to **Release** to run experiments faster.
+1. Install **Visual Studio**;
+1. Open the VS project file *OFEC.sln* or *OFEC.vcxproj*;
+1. Set the *Windows SDK Version* and the *Platform Toolset* (find them in *Project->Properties->General*) correctly;
+1. Build the solution.
 
-#### Compile OFEC in Linux Shell
+#### Linux
 
-Make sure `g++` and `make` have been installed in your Linux. If not run
-```
-sudo apt install g++ make
-```
-Then `cd` into the ***root directory*** of the project and run `make`. You can also add some optional commands to ***compile in parallel*** and ***grep the error informations***:
-```
-make -j8 |& grep error
-```
+1. Open the terminal in the root directory of OFEC;
+1. Run `gcc -v` and `make -v` to make sure **gcc** and **make** have been installed. If not run `sudo apt install gcc make`;
+1. Run `make` to compile. You can also add some optional commands to compile it in parallel and grep the error informations `make -j8 |& grep error`.
+
+
+#### MacOS
+
+1. Install **gcc** by running `brew install gcc` in the terminal; 
+1. Install **Clion**;
+1. Open the root directory of OFEC in **Clion** ;
+1. Make sure the CMake project is reloaded successfully;
+1. Go to *Preference->Build, Excecution, Deployment->Toolchains*;
+1. Change the *C++ compiler* to **g++**  (e.g., "/usr/local/bin/g++-9");
+1. Build the project.

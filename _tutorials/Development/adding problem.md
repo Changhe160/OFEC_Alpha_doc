@@ -1,12 +1,12 @@
 ---
 title: Adding problem
 category: Development
-order: 2
+order: 3
 ---
 - a
 {:toc}
 
->All problem objects in OFEC are classes inherited from the base class `problem`.
+>All problem objects in OFEC are classes inherited from the base class [`problem`](../../Core/problem/problem).
 
 A problem object must:
 1. define how to **calculate** the **objective values** and the **constraint violation** of a given solution `s` in the member function `evaluate_(s)`;
@@ -28,10 +28,10 @@ class one_max : public problem {
 protected:
     optima<variable_vector<int>, real> m_optima;
 public:
-    void initialize()   // Initialize the m_optima
-    evaluation_tag evaluate_(solution_base&, caller, bool, bool);
-    void initialize_solution(solution_base&) const;
-    real variable_distance(const solution_base&, const solution_base&) const;
+    void initialize() override ;// Initialize the m_optima
+    evaluation_tag evaluate_(solution_base&, caller, bool, bool) override;
+    void initialize_solution(solution_base&) const override;
+    real variable_distance(const solution_base&, const solution_base&) const override;
 }
 ```
 

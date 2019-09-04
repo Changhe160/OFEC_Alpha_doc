@@ -1,7 +1,7 @@
 ---
 title: Adding algorithm
 category: Development
-order: 3
+order: 4
 ---
 - a
 {:toc}
