@@ -31,7 +31,7 @@ Link: [`continuous`](../../../Core/problem/continuous)
 
 ### MOEA-F1
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F1 ND=30` (`NO=2`)
 
@@ -43,7 +43,7 @@ class MOEA_F1 final : public MOEA_FBase
 
 ### MOEA-F2
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F2 ND=30` (`NO=2`)
 
@@ -55,7 +55,7 @@ class MOEA_F2 final : public MOEA_FBase
 
 ### MOEA-F3
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F3 ND=30` (`NO=2`)
 
@@ -67,7 +67,7 @@ class MOEA_F3 final : public MOEA_FBase
 
 ### MOEA-F4
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F4 ND=30` (`NO=2`)
 
@@ -79,7 +79,7 @@ class MOEA_F4 final : public MOEA_FBase
 
 ### MOEA-F5
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F5 ND=30` (`NO=2`)
 
@@ -91,7 +91,7 @@ class MOEA_F5 final : public MOEA_FBase
 
 ### MOEA-F6
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F6 ND=30` (`NO=3`)
 
@@ -103,7 +103,7 @@ class MOEA_F6 final : public MOEA_FBase
 
 ### MOEA-F7
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F7 ND=30` (`NO=2`)
 
@@ -115,7 +115,7 @@ class MOEA_F7 final : public MOEA_FBase
 
 ### MOEA-F8
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F8 ND=30` (`NO=2`)
 
@@ -127,7 +127,7 @@ class MOEA_F8 final : public MOEA_FBase
 
 ### MOEA-F9
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_MOEA_F9 ND=30` (`NO=2`)
 

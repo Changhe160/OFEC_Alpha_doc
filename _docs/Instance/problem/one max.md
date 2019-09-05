@@ -19,7 +19,7 @@ Link: [`problem`](../../../Core/problem/problem)
 |`m_optima`|`optima<variable_vector<int>, real>`|The global optima|
 |`m_if_valid_check`|`bool`|Whether or not the validation check is necessary|
 
-#### Major member functions
+#### Member function
 
 |Name|Utiliy|
 |-|-|

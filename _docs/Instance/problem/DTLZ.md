@@ -27,7 +27,7 @@ Link: [`continuous`](../../../Core/problem/continuous)
 
 ### DTLZ1
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_DTLZ1 IT1=5 NO=3` (`ND=NO-1+IT1`)
 
@@ -39,7 +39,7 @@ class DTLZ1 final : public DTLZ
 
 ### DTLZ2
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_DTLZ2 IT1=10 NO=3` (`ND=NO-1+IT1`)
 
@@ -51,7 +51,7 @@ class DTLZ2 final : public DTLZ
 
 ### DTLZ3
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_DTLZ3 IT1=10 NO=3` (`ND=NO-1+IT1`)
 
@@ -63,7 +63,7 @@ class DTLZ3 final : public DTLZ
 
 ### DTLZ4
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_DTLZ4 IT1=5 NO=3` (`ND=NO-1+IT1`)
 
@@ -75,7 +75,7 @@ class DTLZ4 final : public DTLZ
 
 ### DTLZ6
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_DTLZ6 IT1=20 NO=3` (`ND=NO-1+IT1`)
 

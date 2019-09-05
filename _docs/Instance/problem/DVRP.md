@@ -12,7 +12,7 @@ class dynamic_VRP : public Problem
 ```
 Link: [`problem`](../../../Core/problem/problem)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
@@ -32,7 +32,7 @@ Link: [`problem`](../../../Core/problem/problem)
 class road_net
 ```
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|

@@ -9,7 +9,7 @@ order: 1
 
 ``class algorithm``
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
@@ -17,7 +17,7 @@ order: 1
 |``m_term``|``unique_ptr<``[``termination``](../../Core/termination)``>``|The termination criterion|
 |``m_parameters``|[``param_map``](../../Core/definition)|Parameters|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|

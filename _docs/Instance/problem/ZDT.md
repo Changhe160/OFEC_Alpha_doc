@@ -26,7 +26,7 @@ Link: [`continuous`](../../../Core/problem/continuous)
 
 ### ZDT1
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_ZDT1 ND=30` (`NO=2`)
 
@@ -38,7 +38,7 @@ class ZDT1 final : public ZDT
 
 ### ZDT2
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_ZDT2 ND=30` (`NO=2`)
 
@@ -50,7 +50,7 @@ class ZDT2 final : public ZDT
 
 ### ZDT3
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_ZDT3 ND=30` (`NO=2`)
 
@@ -62,7 +62,7 @@ class ZDT3 final : public ZDT
 
 ### ZDT4
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_ZDT4 ND=30` (`NO=2`)
 
@@ -74,7 +74,7 @@ class ZDT4 final : public ZDT
 
 ### ZDT6
 
-#### String command example
+#### Command line arguments example
 
 `PN=MOP_ZDT6 ND=30` (`NO=2`)
 

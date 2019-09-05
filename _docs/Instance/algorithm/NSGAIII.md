@@ -15,27 +15,23 @@ order: 11
 
 ```c++
 template<typename Individual>
-class NSGAIII : public population<Individual> 
+class NSGAIII
 ```
-Links: [``population``](../../../Core/algorithm/population)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
-|``m_offspring``|``vector<Individual>``|Two size of ``m_pop``, for the convenience of sorting and selecting|
-|``mv_rps``|``vector<``[``ref_point``](#reference-point)``>``|Reference points|
-|``mv_obj_division_p_``|``vector<size_t>``||
-|``mvv_off_conv_obj``||
+|`mv_rps`|`vector<`[`ref_point`](#reference-point)`>`|Reference points|
+|`mv_obj_division_p_`|`vector<size_t>`||
+|`mvv_off_conv_obj`|`vector<vector<real>>`||
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|``evolve()``|Optimization operators in each iteration|
-|``evolve_mo()``|Reproduction process (pure virtual function here)|
-|``sort()``|Fast nondominated sorting process|
-|``environmental_selection()``|Survivor selection process|
+|`survivor_selection(parent, offspring)`|Reproduction process (pure virtual function here)|
+|`nondominated_sorting(offspring)`|Fast nondominated sorting process|
 
 ### Reference point
 
@@ -44,23 +40,58 @@ Links: [``population``](../../../Core/algorithm/population)
 class ref_point
 ```
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 ||||
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
 |||
 
-### NSGAIII-SBXRM
+### NSGAIII-SBX
+
+#### Command line arguments example
+
+`AN=NSGAII-SBX PS=100`
 
 #### Class view
 
 ```c++
-class NSGAIII_SBXRM_pop : public NSGAIII<individual<>>, SBX_RealMutate
+class NSGAIII_SBX : public algorithm
 ```
-Links: `NSGAIII` `individual` `NSGAIII`
+
+#### Data member
+
+|Name|Utility|
+|-|-|
+|`m_pop`|`NSGAIII_SBX_pop`|
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|||
+
+#### Class view
+
+```c++
+class NSGAIII_SBX_pop : public SBX_pop<>, NSGAIII<individual<>>
+```
+Links: `SBX_pop` `NSGAIII` `individual`
+
+#### Data member
+
+|Name|Type|Utility|
+|-|-|-|
+|`m_offspring`|`vector<individual<>>`|Two size of `m_inds`, for the convenience of sorting and selecting|
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|||
+

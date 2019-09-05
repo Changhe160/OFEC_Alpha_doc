@@ -38,25 +38,25 @@ order: 3
 #### Class view
 
 ```c++
-template <typename type_particle>
-class swarm : public population<type_particle> 
+template <typename Particle>
+class swarm : public population<Particle> 
 ```
 Links: [`population`](../../../Core/algorithm/population)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 |`m_C1` `m_C2`|`real`|The value of accelerators *C*$\_1$ and *C*$\_2$|
 |`m_weight`|`real`|The value of inertia weight *W*|
-|`m_link`|`vector<vector<bool>>`|The connected graph of particles|
+|`m_link`|`vector<vector<bool>>`|The connections between particles|
 |`m_flag_best_impr`|`bool`|Whether the global best particle improves|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`evolve()`||
+|`evolve()` &oplus;||
 |`set_neighborhood()`|The adaptive random topology by default|
 |`get_best_neighbor(idx)`|Return the best neighbor of the `idx`-th particle|
 
@@ -69,14 +69,14 @@ class particle : public individual<>
 ```
 Links: [`individual`](../../../Core/algorithm/individual)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 |`m_pbest`|`solution<>`|The personal best position|
 |`m_vel`|`vector<real>`|The velocity vector|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
@@ -87,36 +87,19 @@ Links: [`individual`](../../../Core/algorithm/individual)
 
 ### SPSO-07
 
-#### String command example
-
-`AN=SPSO01 PS=100`
-
 #### Reference
 
 C. Maurice. (2007). ["Standard pso 2007 (spso-07)"](http://www.particleswarm.info/Programs.html).
 
-#### Class view
+#### Command line arguments example
 
-```c++
-class particle07 final : public particle
-```
-
-#### Overridden member functions
-
-|Name|Utility|
-|-|-|
-|`initialize_velocity()`||
-|`next_velocity(lbest, w, c1, c2)`||
+`AN=SPSO07 PS=100`
 
 #### Class view
 
 ```c++
-class SPSO07 : public algorithm
+class SPSO07 final : public algorithm
 ```
-
-#### String command example
-
-`AN=SPSO01 PS=100`
 
 #### Data member
 
@@ -124,13 +107,26 @@ class SPSO07 : public algorithm
 |-|-|-|
 |`m_pop`|`swarm<particle07>`||
 
-#### Overridden member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`initialize()`||
-|`run_()`||
-|`record()`||
+|`initialize()` &oplus;||
+|`run_()` &oplus;||
+|`record()` &oplus;||
+
+#### Class view
+
+```c++
+class particle07 final : public particle
+```
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|`initialize_velocity()` &oplus;||
+|`next_velocity(lbest, w, c1, c2)` &oplus;||
 
 ### SPSO-11
 
@@ -138,24 +134,14 @@ class SPSO07 : public algorithm
 
 C. Maurice. (2011). ["Standard PSO 2011 (SPSO-2011)"](http://www.particleswarm.info/Programs.html).
 
-#### Class view
+#### Command line arguments example
 
-```c++
-class particle11 final : public particle
-```
-
-#### Overridden member functions
-
-|Name|Utility|
-|-|-|
-|`initialize_velocity()`||
-|`next_velocity(lbest, w, c1, c2)`||
-|`clamp_velocity()`||
+`AN=SPSO11 PS=100`
 
 #### Class view
 
 ```c++
-class SPSO11 : public algorithm
+class SPSO11 final : public algorithm {
 ```
 
 #### Data member
@@ -164,10 +150,24 @@ class SPSO11 : public algorithm
 |-|-|-|
 |`m_pop`|`swarm<particle11>`||
 
-#### Overridden member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`initialize()`||
-|`run_()`||
-|`record()`||
+|`initialize()` &oplus;||
+|`run_()` &oplus;||
+|`record()` &oplus;||
+
+#### Class view
+
+```c++
+class particle11 final : public particle
+```
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|`initialize_velocity()` &oplus;||
+|`next_velocity(lbest, w, c1, c2)` &oplus;||
+|`clamp_velocity()` &oplus;||

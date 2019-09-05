@@ -5,7 +5,7 @@ subcategory: problem
 order: 52
 ---
 
-#### String command example
+#### Command line arguments example
 
 `PN=TSP NO=1 DF1=A280`
 

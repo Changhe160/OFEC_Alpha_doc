@@ -5,7 +5,7 @@ subcategory: algorithm
 order: 1
 ---
 
-#### String command example
+#### Command line arguments example
 
 `AN=SA`
 
@@ -40,7 +40,7 @@ Link: [``algorithm``](../../../Core/algorithm/algorithm)
 |``m_s``|[``solution<>``](../../../Core/algorithm/solution)|Candidate state (solution) $s$ |
 |``m_s_new``|[``solution<>``](../../../Core/algorithm/solution)|Neighboring state $s_{new}$|
 
-#### Overridden member functions
+#### Member function
 
 |Name|Utility|
 |-|-|

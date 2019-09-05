@@ -33,19 +33,19 @@ class Canonical_DE : public algorithm
 ```
 Link: [`algorithm`](../../../Core/algorithm/algorithm)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 |`m_pop`|[`DE::population`](#depopulation)`<`[`DE::individual`](#deindividual)`>>`|The population|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`intialize()`|Set parameters; initialize and evaluate the population (Pseudocode 1., 2.) |
-|`run_()`|The optimization process (Pseudocode 3.)|
-|`record()`|Record the evluations and the error in GOPs. Record the evaluations and the number of optima found in MMOPs.|
+|`intialize()` &oplus;|Set parameters; initialize and evaluate the population (Pseudocode 1., 2.) |
+|`run_()` &oplus;|The optimization process (Pseudocode 3.)|
+|`record()` &oplus;|Record the evluations and the error in GOPs. Record the evaluations and the number of optima found in MMOPs.|
 
 ### DE::population
 
@@ -57,18 +57,18 @@ class DE::population : public population<Individual>
 ```
 Links: [`population`](../../../Core/algorithm/population)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 |`m_F`|`real`|The value of parameter *F*|
 |`m_CR`|`real`|The value of parameter *CR*|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`evolve()`|Optimization operators in each iteration (Pseudocode 3.1.)|
+|`evolve()` &oplus;|Optimization operators in each iteration (Pseudocode 3.1.)|
 
 ### DE::individual
 
@@ -79,14 +79,14 @@ class DE::individual : public individual<variable_vector<real>, real>
 ```
 Links: [`individual`](../../../Core/algorithm/individual)
 
-#### Data members
+#### Data member
 
 |Name|Type|Utility|
 |-|-|-|
 |`m_pv`|`solution<>`|The donor vector|
 |`m_pu`|`solution<>`|The trial vector|
 
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
@@ -96,7 +96,7 @@ Links: [`individual`](../../../Core/algorithm/individual)
 
 ### DE/rand/1
 
-#### String command example
+#### Command line arguments example
 
 `AN=DE-rand-1 PS=100`
 
@@ -114,11 +114,11 @@ class DE_rand_1 : public Canonical_DE
 
 |Name|Utility|
 |-|-|
-|`initialize()`|Set the mutation strategy to `DE::mutation_strategy::rand_1`|
+|`initialize()` &oplus;|Set the mutation strategy to `DE::mutation_strategy::rand_1`|
 
 ### DE/best/2
 
-#### String command example
+#### Command line arguments example
 
 `AN=DE-best-2 PS=100`
 
@@ -136,11 +136,11 @@ class DE_best_2 : public Canonical_DE
 
 |Name|Utility|
 |-|-|
-|`initialize()`|Set the mutation strategy to `DE::mutation_strategy::best_2`|
+|`initialize()` &oplus;|Set the mutation strategy to `DE::mutation_strategy::best_2`|
 
 ### DE/nrand/1
 
-#### String command example
+#### Command line arguments example
 
 `AN=DE-nrand-1 PS=100`
 
@@ -164,5 +164,5 @@ class DE_nrand_1 : public Canonical_DE
 
 |Name|Utility|
 |-|-|
-|`initialize()`|Set the mutation strategy to `DE::mutation_strategy::nrand_1`|
+|`initialize()` &oplus;|Set the mutation strategy to `DE::mutation_strategy::nrand_1`|
 

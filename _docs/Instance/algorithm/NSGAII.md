@@ -15,30 +15,59 @@ A Fast and Elitist Multiobjective Genetic Algorithm : NSGA-II.
 
 ```c++
 template<typename Individual>
-class NSGAII : public population<Individual>
+class NSGAII
 ```
-Links: [`population`](../../../Core/algorithm/population)
 
-#### Data members
-
-|Name|Type|Utility|
-|-|-|-|
-|`m_offspring`|`vector<Individual>`|Two size of `m_pop`, for the convenience of sorting and selecting|
-
-#### Major member functions
+#### Member function
 
 |Name|Utility|
 |-|-|
-|`evolve()`|Optimization operators in each iteration|
-|`evolve_mo()`|Reproduction process (pure virtual function here)|
-|`sort()`|Use [fast nondominated sorting](../../../Utility/nondominated sorting/#fast-nondominated-sorting-fns) to sort `m_offspring`|
-|`eval_dens()`|Survivor selection process|
+|`survivor_selection(parent, offspring)`|Select the best half of `offspring` to replace `parent`|
+|`nondominated_sorting(offspring)`|Use [fast nondominated sorting](../../../Utility/nondominated sorting/#fast-nondominated-sorting-fns) to sort `offspring`|
+|`eval_dens(parent, offspring)`|Crowding and Replacement|
 
-### NSGAII-SBXRM
+### NSGAII-SBX
+
+#### Command line arguments example
+
+`AN=NSGAII-SBX PS=100`
 
 #### Class view
 
 ```c++
-class NSGAII_SBXRM : public NSGAII<individual<>>, SBX_RealMutate
+class NSGAII_SBX : public algorithm
 ```
-Links: `NSGAII` `individual<>` `SBX_RealMutate`
+
+#### Data member
+
+|Name|Type|Utility|
+|-|-|-|
+|`m_pop`|`NSGAII_SBX_pop`||
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|`initialize()` &oplus;||
+|`run_()` &oplus;||
+|`record()` &oplus;||
+
+#### Class view
+
+```c++
+class NSGAII_SBX_pop : public SBX_pop<>, NSGAII<individual<>>
+```
+Links: `SBX_pop` `NSGAII` `individual` 
+
+#### Data member
+
+|Name|Type|Utility|
+|-|-|-|
+|`m_offspring`|`vector<individual<>>`|Two size of `m_inds`, for the convenience of sorting and selecting|
+
+#### Member function
+
+|Name|Utility|
+|-|-|
+|`initialize()` &oplus;||
+|`evolve()` &oplus;||
