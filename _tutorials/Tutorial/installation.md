@@ -11,6 +11,7 @@ order: 1
 1. Install **Visual Studio**;
 1. Open the VS project file *OFEC.sln* or *OFEC.vcxproj*;
 1. Set the *Windows SDK Version* and the *Platform Toolset* (find them in *Project->Properties->General*) correctly;
+1. Set the *Object File Name* (find it in *Project->Properties->C/C++->Output Files*) to `$(IntDir)/%(RelativeDir)/` (**NECESSARY**, we have source files with same name);
 1. Build the solution.
 
 #### Linux

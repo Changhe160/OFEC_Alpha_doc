@@ -4,6 +4,8 @@ category: Tutorial
 order: 5
 ---
 
+> The complete list is defined in the function `register_parameters()` in the source file "/run/user_initialization.cpp"
+
 |String|Meaning|
 |-|-|
 |AN|Algorithm's name|
