@@ -4,7 +4,7 @@ category: Tutorial
 order: 1
 ---
 
->OFEC does not rely on libraries other than **C++ STL 14**. So to intall OFEC, just download or git clone it from its [**GitHub repo**](https://github.com/Changhe160/OFEC_Alpha), and compile it by the following recommended ways:
+>OFEC does not rely on libraries other than **C++ STL 14**. So to intall OFEC, just download or clone it from the [**GitHub repo**](https://github.com/Changhe160/OFEC_Alpha), and compile it by the following recommended ways:
 
 #### Windows
 
@@ -23,9 +23,8 @@ order: 1
 
 #### Mac
 
-1. Install **gcc** by running `brew install gcc` in the terminal; 
-1. Install **Clion**;
-1. Open the root directory of OFEC in **Clion** ;
+1. Install **CLion**;
+1. Open the root directory of OFEC in **CLion** ;
 1. Make sure the CMake project is reloaded successfully;
 1. Select the root directory of OFEC as working directory in *Run->Edit Configurations*;
 1. Build the project.
