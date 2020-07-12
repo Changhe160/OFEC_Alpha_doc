@@ -11,17 +11,17 @@ order: 1
 1. Install **Visual Studio**;
 1. Open the VS project file *OFEC.sln* or *OFEC.vcxproj*;
 1. Set the *Windows SDK Version* and the *Platform Toolset* (find them in *Project->Properties->General*) correctly;
-1. Set the *Object File Name* (find it in *Project->Properties->C/C++->Output Files*) to `$(IntDir)/%(RelativeDir)/` (**NECESSARY**, we have source files with same name);
+1. Set the *Object File Name* (find it in *Project->Properties->C/C++->Output Files*) to `$(IntDir)/%(RelativeDir)/` (**NECESSARY**,there are some source files with the same name);
 1. Build the solution.
 
 #### Linux
 
-1. Open the terminal in the root directory of OFEC;
-1. Run `gcc -v` and `make -v` to make sure **gcc** and **make** have been installed. If not run `sudo apt install gcc make`;
+1. Open the terminal and `cd` into the root directory of OFEC;
+1. Run `gcc -v` and `make -v` to make sure that **gcc** and **make** have been installed. If not run `sudo apt install gcc make`;
 1. Run `make` to compile. You can also add some optional commands to compile it in parallel and filter out the error informations: `make -j8 |& grep error`.
 
 
-#### Mac
+#### macOS
 
 1. Install **CLion**;
 1. Open the root directory of OFEC in **CLion** ;
