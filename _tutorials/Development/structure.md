@@ -5,7 +5,7 @@ order: 1
 ---
 OFEC consists of four major components, i.e., problem, algorithm, measurement and utility. 
 
-<img src="../../images/OFEC_component_diagram.png" width="400">
+<object data="../../images/OFEC_component_diagram.svg" type="image/svg+xml"></object>
 
 Algorithm calls problem to evaluate solutions, initialize solutions, check solutions' constraint violations or boundary violations. Algorithm also calls measurement to calculate and record necessary informations. Both algorithm, problem and measurement calls utility to help complete their operations.
 
