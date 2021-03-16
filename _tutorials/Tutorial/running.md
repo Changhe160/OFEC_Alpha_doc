@@ -4,19 +4,18 @@ category: Tutorial
 order: 2
 ---
 
-To determine the algorithm, problem and some other experimental parameters, we need to pass necessary command line arguments to the application. The form of command line arguments is like: 
+Algorithm, problem, and some other experimental parameters are set by command line arguments. The form of command line arguments is like: 
 `ME=20000 SF=100 NR=4 PN=GOP_CLASSICAL_sphere ND=2 AN=DE-rand-1 PS=100`.
 
->Refer to [command line argument list](../command line argument list) to see their meanings.
-For problem and algorithm instances, refer to their APIs to see the needed arguments.
+> Refer to the [list of command line arguments](../cmd_line_args)  to understand their meaning. For problem and algorithm examples, refer to their APIs to see the required arguments.
 
-To run OFEC:
-- in **Visual Studio**, input the command line arguments in *Project->Properties->Debugging->Command Arguments*, and then start debugging;
-- in **Clion**, input the command line arguments in *Run->Edit Configurations->Program arguments*and the start debugging. 
+To run OFEC from the terminal, append the command line arguments to the application
+-  *console/bin/r* compiled by **gcc** and **make**;
+-  *console/x64/Debug/OFEC.exe* built by **Visual Studio**;
+-  *console/cmake-build-debug/OFEC* built by **CLion**.
 
-To run OFEC in terminal, just add the command line arguments to the application. If it is compiled:
-- by **gcc** and **make**, the application is "console/bin/r";
-- by **Visual Studio**, the application is "console/x64/Debug/OFEC.exe";
-- by **Clion**, the application is "console/cmake-build-debug/OFEC";
+To run OFEC in IDEs, enter the command line arguments in 
+- *Project->Properties->Debugging->Command Arguments* in **Visual Studio**;
+- *Run->Edit Configurations->Program arguments* in **CLion**.
 
-Aftering running, the results will be generated in the directory "/result/" (you need to create this directory yourself). 
+Aftering running, the results will be generated in the "/result/" directory (you need to create this directory yourself). 

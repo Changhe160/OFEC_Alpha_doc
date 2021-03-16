@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="425 129 1004 1293" width="1004" height="1293">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Courier New" font-size="12" panose-1="2 7 6 9 2 2 5 9 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="100.09766" slope="-1e3" x-height="443.3594" cap-height="591.7969" ascent="832.5195" descent="-300.29297" font-style="italic" font-weight="700">
+      <font-face-src>
+        <font-face-name name="CourierNewPS-BoldItalicMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="11" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="12" panose-1="2 7 6 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="100.09766" slope="0" x-height="443.3594" cap-height="591.7969" ascent="832.5195" descent="-300.29297" font-weight="700">
+      <font-face-src>
+        <font-face-name name="CourierNewPS-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="10" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -8 14 16" markerWidth="14" markerHeight="16" color="black">
+      <g>
+        <path d="M 12 0 L 0 -7 L 0 7 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Courier New" font-size="9" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.4\n2021-03-16 08:58:11 +0000</metadata>
+  <g id="Canvas_1" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none" stroke="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Relationship">
+      <title>Relationship</title>
+      <g id="Line_43">
+        <path d="M 1230.6125 579.25 L 1230.6125 144.55405 L 730.3704 144.55405" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_99">
+        <line x1="506.686" y1="920.8684" x2="506.686" y2="704.15" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_100">
+        <line x1="835.2548" y1="920.8684" x2="835.2548" y2="704.15" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_109">
+        <line x1="552.19874" y1="1030.1854" x2="552.19874" y2="1013.7684" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_110">
+        <line x1="789.742" y1="1030.1854" x2="789.742" y2="1013.7684" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_123">
+        <line x1="1027.2853" y1="1030.1854" x2="1027.2853" y2="1013.7684" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_126">
+        <line x1="1027.2853" y1="920.8684" x2="1027.2853" y2="661.65" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_151">
+        <path d="M 1344.8666 766.8781 L 1344.8666 502.08955 L 1236.1125 502.08955 C 1236.1125 496.58955 1225.1125 496.58955 1225.1125 502.08955 L 981.5167 502.08955" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_152">
+        <path d="M 1086.2523 795.4406 L 1053.4395 795.4406 L 1053.4395 661.65" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_173">
+        <path d="M 1355.8541 1064.1854 L 1399.0476 1064.1854 L 1399.0476 550.4902 L 1350.3666 550.4902 C 1350.3666 544.9902 1339.3666 544.9902 1339.3666 550.4902 L 1236.1125 550.4902 C 1236.1125 544.9902 1225.1125 544.9902 1225.1125 550.4902 L 945.4625 550.4902 L 945.4625 536.88955" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_210">
+        <path d="M 844.7958 1367.4204 L 819.8958 1367.4204 L 819.8958 1317.25 L 804.8635 1317.25" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_211">
+        <path d="M 844.7958 1367.4204 L 819.8958 1367.4204 L 819.8958 1390.1667 L 804.8635 1390.1667" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_212">
+        <path d="M 844.7958 1367.4204 L 819.8958 1367.4204 L 819.8958 1214.9829 L 804.9719 1214.9829" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_213">
+        <path d="M 975.2167 1367.4204 L 1422.2222 1367.4204 L 1422.2222 643.375 L 1404.5476 643.375 C 1404.5476 637.875 1393.5476 637.875 1393.5476 643.375 L 1350.3666 643.375 C 1350.3666 637.875 1339.3666 637.875 1339.3666 643.375 L 1322.3682 643.375" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Solution">
+      <title>Solution</title>
+      <g id="Graphic_33">
+        <rect x="621.4704" y="129.55405" width="99" height="30" fill="#dbe8fc"/>
+        <rect x="621.4704" y="129.55405" width="99" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(626.4704 137.55405)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="15.695312" y="10">Sol_Base</tspan>
+        </text>
+      </g>
+      <g id="Group_38">
+        <g id="Graphic_41">
+          <rect x="569.1443" y="267.5" width="203.65213" height="33" fill="#dbe8fc"/>
+          <rect x="569.1443" y="267.5" width="203.65213" height="33" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 272.5)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ init()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ dominate(s: Solution): Bool</tspan>
+          </text>
+        </g>
+        <g id="Graphic_40">
+          <rect x="569.1443" y="220.5" width="203.65213" height="47" fill="#dbe8fc"/>
+          <rect x="569.1443" y="220.5" width="203.65213" height="47" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 225.5)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># vars: VarEnc</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># objs: ObjTyp[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33"># cons: Real[]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_39">
+          <rect x="569.1443" y="196.5" width="203.65213" height="24" fill="#dbe8fc"/>
+          <rect x="569.1443" y="196.5" width="203.65213" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 201.5)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="68.02138" y="10">Solution</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_48">
+        <rect x="974.977" y="621.75" width="104.6167" height="30" fill="#dbe8fc"/>
+        <rect x="974.977" y="621.75" width="104.6167" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(979.977 629.75)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="14.903076" y="10">Route_TSP</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <rect x="621.4704" y="487.08955" width="99" height="30" fill="#dbe8fc"/>
+        <rect x="621.4704" y="487.08955" width="99" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(626.4704 495.08955)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="15.695312" y="10">Ind_Real</tspan>
+        </text>
+      </g>
+      <g id="Group_56">
+        <g id="Graphic_59">
+          <rect x="569.1443" y="395.44595" width="203.65213" height="22" fill="#dbe8fc"/>
+          <rect x="569.1443" y="395.44595" width="203.65213" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 400.44595)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ init(id: Int)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_58">
+          <rect x="569.1443" y="361.44595" width="203.65213" height="34" fill="#dbe8fc"/>
+          <rect x="569.1443" y="361.44595" width="203.65213" height="34" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 366.44595)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># pop_id: Int</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># fitness: Real</tspan>
+          </text>
+        </g>
+        <g id="Graphic_57">
+          <rect x="569.1443" y="337.44595" width="203.65213" height="24" fill="#dbe8fc"/>
+          <rect x="569.1443" y="337.44595" width="203.65213" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 342.44595)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="60.820206" y="10">Individual</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_55">
+        <rect x="717.6832" y="320.73315" width="76.31677" height="23" fill="#dae9fc"/>
+        <path d="M 717.6832 320.73315 L 794 320.73315 L 794 343.73315 L 717.6832 343.73315 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <text transform="translate(720.6832 321.23315)" fill="black">
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" x="5.1535034" y="8">VarEncode,</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" x="14.154968" y="19">ObjType</tspan>
+        </text>
+      </g>
+      <g id="Group_65">
+        <g id="Graphic_68">
+          <rect x="461.17326" y="637.25" width="182.05097" height="57" fill="#dbe8fc"/>
+          <rect x="461.17326" y="637.25" width="182.05097" height="57" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 642.25)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ mutate(F: Real, r1,r2,</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">  r3,r4,r5: Sol_Real)</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">+ recombine(CR: Real)</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45">+ select()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_67">
+          <rect x="461.17326" y="603.25" width="182.05097" height="34" fill="#dbe8fc"/>
+          <rect x="461.17326" y="603.25" width="182.05097" height="34" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 608.25)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># donor: Real[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># trial: Sol_Real</tspan>
+          </text>
+        </g>
+        <g id="Graphic_66">
+          <rect x="461.17326" y="579.25" width="182.05097" height="24" fill="#dbe8fc"/>
+          <rect x="461.17326" y="579.25" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 584.25)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="64.42197" y="10">DE_Ind</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_69">
+        <g id="Graphic_72">
+          <rect x="698.71655" y="637.25" width="182.05097" height="57" fill="#dbe8fc"/>
+          <rect x="698.71655" y="637.25" width="182.05097" height="57" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 642.25)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ next_vel(w,c1,c2: Real, </tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">  lbest: Sol_Real)</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">+ move()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45">+ clamp_vel()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_71">
+          <rect x="698.71655" y="603.25" width="182.05097" height="34" fill="#dbe8fc"/>
+          <rect x="698.71655" y="603.25" width="182.05097" height="34" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 608.25)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># pbest: Sol_Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># velocity: Real[]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_70">
+          <rect x="698.71655" y="579.25" width="182.05097" height="24" fill="#dbe8fc"/>
+          <rect x="698.71655" y="579.25" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 584.25)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="57.220795" y="10">Particle</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_75">
+        <rect x="867" y="487.08955" width="104.6167" height="30" fill="#dbe8fc"/>
+        <rect x="867" y="487.08955" width="104.6167" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(872 495.08955)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="18.503662" y="10">Sol_Real</tspan>
+        </text>
+      </g>
+      <g id="Graphic_80">
+        <rect x="717.6832" y="180" width="76.31677" height="23" fill="#dae9fc"/>
+        <path d="M 717.6832 180 L 794 180 L 794 203 L 717.6832 203 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <text transform="translate(720.6832 180.5)" fill="black">
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" x="5.1535034" y="8">VarEncode,</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" x="14.154968" y="19">ObjType</tspan>
+        </text>
+      </g>
+      <g id="Line_47">
+        <path d="M 1027.2853 621.75 L 1027.2853 555.9902 C 1021.7853 555.9902 1021.7853 544.9902 1027.2853 544.9902 L 1027.2853 507.58955 C 1021.7853 507.58955 1021.7853 496.58955 1027.2853 496.58955 L 1027.2853 248.5 L 799.7965 248.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <line x1="670.9704" y1="196.5" x2="670.9704" y2="173.05405" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_51">
+        <line x1="670.9704" y1="486.58955" x2="670.9704" y2="430.94595" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_54">
+        <rect x="977.6774" y="580.9478" width="99.21582" height="33" fill="white"/>
+        <text transform="translate(978.6774 581.9478)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="32.405273" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">VarEncode</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→Int[],</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="13.502197" y="28">ObjType→Real›</tspan>
+        </text>
+      </g>
+      <g id="Line_60">
+        <line x1="670.9704" y1="337.44595" x2="670.9704" y2="314" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_74">
+        <path d="M 919.3083 487.08955 L 919.3083 274.5 L 786.29645 274.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_76">
+        <path d="M 597.7115 694.25 L 597.7115 718.25 L 829.7548 718.25 C 829.7548 712.75 840.7548 712.75 840.7548 718.25 L 919.3083 718.25 L 919.3083 536.88955" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_77">
+        <path d="M 835.2548 579.25 L 835.2548 547.35 L 893.1542 547.35 L 893.1542 526.98955" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_78">
+        <path d="M 552.19874 579.25 L 552.19874 547.75 L 670.9704 547.75 L 670.9704 530.58955" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_79">
+        <path d="M 789.742 579.25 L 789.742 547.75 L 670.9704 547.75 L 670.9704 530.58955" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_52">
+        <rect x="620.37144" y="443.713" width="104.6167" height="33" fill="white"/>
+        <text transform="translate(621.37144 444.713)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="35.105713" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">VarEncode</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→Real[],</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="16.202637" y="28">ObjType→Real›</tspan>
+        </text>
+      </g>
+      <g id="Graphic_73">
+        <rect x="868.4925" y="446.117" width="104.6167" height="33" fill="white"/>
+        <text transform="translate(869.4925 447.117)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="35.105713" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">VarEncode</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→Real[],</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="16.202637" y="28">ObjType→Real›</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Canvas_1_Population">
+      <title>Population</title>
+      <g id="Group_82">
+        <g id="Graphic_85">
+          <rect x="569.1443" y="809.4406" width="203.65213" height="30" fill="#e4f2da"/>
+          <rect x="569.1443" y="809.4406" width="203.65213" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 814.4406)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ init()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ evolve()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_84">
+          <rect x="569.1443" y="775.4406" width="203.65213" height="34" fill="#e4f2da"/>
+          <rect x="569.1443" y="775.4406" width="203.65213" height="34" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 780.4406)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># inds: IndType[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># iters: Int</tspan>
+          </text>
+        </g>
+        <g id="Graphic_83">
+          <rect x="569.1443" y="751.4406" width="203.65213" height="24" fill="#e4f2da"/>
+          <rect x="569.1443" y="751.4406" width="203.65213" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(574.1443 756.4406)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="60.820206" y="10">Population</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_81">
+        <rect x="717.6832" y="740.69565" width="76.31677" height="23" fill="#e2f2da"/>
+        <path d="M 717.6832 740.69565 L 794 740.69565 L 794 763.69565 L 717.6832 763.69565 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <text transform="translate(720.6832 746.69565)" fill="black">
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" x="14.154968" y="8">IndType</tspan>
+        </text>
+      </g>
+      <g id="Group_86">
+        <g id="Graphic_88">
+          <rect x="461.17326" y="944.8684" width="182.05097" height="59" fill="#e4f2da"/>
+          <rect x="461.17326" y="944.8684" width="182.05097" height="59" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 949.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># F: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># CR: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33"># mut_stra: Int</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45"># rec_stra: Int</tspan>
+          </text>
+        </g>
+        <g id="Graphic_87">
+          <rect x="461.17326" y="920.8684" width="182.05097" height="24" fill="#e4f2da"/>
+          <rect x="461.17326" y="920.8684" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 925.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="64.42197" y="10">DE_Pop</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_90">
+        <path d="M 597.7115 920.8684 L 597.7115 875.3684 L 670.9704 875.3684 L 670.9704 852.9406" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_91">
+        <rect x="551.4041" y="891.0967" width="92.61475" height="23" fill="white"/>
+        <text transform="translate(552.4041 892.0967)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="29.104736" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">IndType</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→DE_Ind›</tspan>
+        </text>
+      </g>
+      <g id="Group_92">
+        <g id="Graphic_94">
+          <rect x="698.71655" y="944.8684" width="182.05097" height="59" fill="#e4f2da"/>
+          <rect x="698.71655" y="944.8684" width="182.05097" height="59" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 949.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># w: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># c1: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33"># c2: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45"># links: Bool[][]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_93">
+          <rect x="698.71655" y="920.8684" width="182.05097" height="24" fill="#e4f2da"/>
+          <rect x="698.71655" y="920.8684" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 925.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="68.02255" y="10">Swarm</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_96">
+        <path d="M 744.2293 920.8684 L 744.2293 875.3684 L 670.9704 875.3684 L 670.9704 852.9406" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_97">
+        <rect x="692.521" y="891.1301" width="103.4165" height="23" fill="white"/>
+        <text transform="translate(693.521 892.1301)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="34.505615" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">IndType</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→Particle›</tspan>
+        </text>
+      </g>
+      <g id="Group_120">
+        <g id="Graphic_122">
+          <rect x="936.2598" y="944.8684" width="182.05097" height="59" fill="#e4f2da"/>
+          <rect x="936.2598" y="944.8684" width="182.05097" height="59" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(941.2598 949.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># </tspan>
+          </text>
+        </g>
+        <g id="Graphic_121">
+          <rect x="936.2598" y="920.8684" width="182.05097" height="24" fill="#e4f2da"/>
+          <rect x="936.2598" y="920.8684" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(941.2598 925.8684)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="60.82138" y="10">EAX_Pop</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_125">
+        <path d="M 981.7726 920.8684 L 981.7726 875.3684 L 840.7548 875.3684 C 840.7548 869.8684 829.7548 869.8684 829.7548 875.3684 L 670.9704 875.3684 L 670.9704 866.4406" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_124">
+        <rect x="910.835" y="888.2266" width="108.81738" height="23" fill="white"/>
+        <text transform="translate(911.835 889.2266)" fill="black">
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="37.206055" y="7">«bind»</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" x="0" y="18">‹</tspan>
+          <tspan font-family="Courier New" font-size="10" font-weight="400" fill="black" y="18">IndType</tspan>
+          <tspan font-family="Courier New" font-size="9" font-weight="400" fill="black" y="18">→Route_TSP›</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Canvas_1_Algorithm">
+      <title>Algorithm</title>
+      <g id="Group_22">
+        <g id="Graphic_25">
+          <rect x="844.7958" y="1201" width="130.4209" height="46" fill="#ffeadd"/>
+          <rect x="844.7958" y="1201" width="130.4209" height="46" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(849.7958 1206)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ init()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ run()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">+ record()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_24">
+          <rect x="844.7958" y="1179" width="130.4209" height="22" fill="#ffeadd"/>
+          <rect x="844.7958" y="1179" width="130.4209" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(849.7958 1184)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># name: Str</tspan>
+          </text>
+        </g>
+        <g id="Graphic_23">
+          <rect x="844.7958" y="1155" width="130.4209" height="24" fill="#ffeadd"/>
+          <rect x="844.7958" y="1155" width="130.4209" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(849.7958 1160)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="27.805176" y="10">Algorithm</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_101">
+        <g id="Graphic_114">
+          <rect x="461.17326" y="1076.5457" width="182.05097" height="21.63968" fill="#ffeadd"/>
+          <rect x="461.17326" y="1076.5457" width="182.05097" height="21.63968" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 1081.5457)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># </tspan>
+          </text>
+        </g>
+        <g id="Graphic_102">
+          <rect x="461.17326" y="1030.1854" width="182.05097" height="24" fill="#ffeadd"/>
+          <rect x="461.17326" y="1030.1854" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 1035.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="78.82431" y="10">DE</tspan>
+          </text>
+        </g>
+        <g id="Graphic_103">
+          <rect x="461.17326" y="1054.1854" width="182.05097" height="22.36032" fill="#ffeadd"/>
+          <rect x="461.17326" y="1054.1854" width="182.05097" height="22.36032" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(466.17326 1059.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># pop: DE_Pop</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_105">
+        <g id="Graphic_113">
+          <rect x="698.71655" y="1076.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="698.71655" y="1076.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 1081.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># set_neighbor()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_106">
+          <rect x="698.71655" y="1030.1854" width="182.05097" height="24" fill="#ffeadd"/>
+          <rect x="698.71655" y="1030.1854" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 1035.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="75.22372" y="10">PSO</tspan>
+          </text>
+        </g>
+        <g id="Graphic_107">
+          <rect x="698.71655" y="1054.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="698.71655" y="1054.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(703.71655 1059.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># pop: Swarm</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_111">
+        <path d="M 552.19874 1098.1854 L 552.19874 1126.6854 L 910.0062 1126.6854 L 910.0062 1141.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_112">
+        <path d="M 789.742 1098.1854 L 789.742 1126.6854 L 910.0062 1126.6854 L 910.0062 1141.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_115">
+        <g id="Graphic_118">
+          <rect x="936.2598" y="1076.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="936.2598" y="1076.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(941.2598 1081.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">#</tspan>
+          </text>
+        </g>
+        <g id="Graphic_117">
+          <rect x="936.2598" y="1030.1854" width="182.05097" height="24" fill="#ffeadd"/>
+          <rect x="936.2598" y="1030.1854" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(941.2598 1035.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="75.22372" y="10">EAX</tspan>
+          </text>
+        </g>
+        <g id="Graphic_116">
+          <rect x="936.2598" y="1054.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="936.2598" y="1054.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(941.2598 1059.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># pop: EAX_Pop</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_119">
+        <path d="M 1027.2853 1098.1854 L 1027.2853 1126.6854 L 910.0062 1126.6854 L 910.0062 1141.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_169">
+        <g id="Graphic_172">
+          <rect x="1173.8031" y="1076.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="1173.8031" y="1076.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1178.8031 1081.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">- local_search()</tspan>
+          </text>
+        </g>
+        <g id="Graphic_171">
+          <rect x="1173.8031" y="1030.1854" width="182.05097" height="24" fill="#ffeadd"/>
+          <rect x="1173.8031" y="1030.1854" width="182.05097" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1178.8031 1035.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="78.82431" y="10">SA</tspan>
+          </text>
+        </g>
+        <g id="Graphic_170">
+          <rect x="1173.8031" y="1054.1854" width="182.05097" height="22" fill="#ffeadd"/>
+          <rect x="1173.8031" y="1054.1854" width="182.05097" height="22" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1178.8031 1059.1854)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># sol: Sol_Real</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_174">
+        <path d="M 1264.8286 1098.1854 L 1264.8286 1126.6854 L 910.0062 1126.6854 L 910.0062 1141.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Problem">
+      <title>Problem</title>
+      <g id="Group_26">
+        <g id="Graphic_29">
+          <rect x="1148.7568" y="661.75" width="163.71143" height="45.75" fill="#fee0e5"/>
+          <rect x="1148.7568" y="661.75" width="163.71143" height="45.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1153.7568 666.75)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ init()</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ init(s: Sol_Base)</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">+ eval(s: Sol_Base)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_28">
+          <rect x="1148.7568" y="603.25" width="163.71143" height="58.5" fill="#fee0e5"/>
+          <rect x="1148.7568" y="603.25" width="163.71143" height="58.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1153.7568 608.25)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># name: Str</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># evals: Int</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33"># opt_modes: OptMode[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45"># con_types: ConType[]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_27">
+          <rect x="1148.7568" y="579.25" width="163.71143" height="24" fill="#fee0e5"/>
+          <rect x="1148.7568" y="579.25" width="163.71143" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1153.7568 584.25)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="51.65161" y="10">Problem</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_127">
+        <g id="Graphic_129">
+          <rect x="1243.2523" y="790.8781" width="135.48572" height="33" fill="#fee0e5"/>
+          <rect x="1243.2523" y="790.8781" width="135.48572" height="33" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1248.2523 795.8781)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># domain: Real[][2]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># opt: Sol_Real[]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_128">
+          <rect x="1243.2523" y="766.8781" width="135.48572" height="24" fill="#fee0e5"/>
+          <rect x="1243.2523" y="766.8781" width="135.48572" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1248.2523 771.8781)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="26.737" y="10">Continuous</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_131">
+        <g id="Graphic_132">
+          <rect x="1086.2523" y="766.8781" width="130.4209" height="24" fill="#fee0e5"/>
+          <rect x="1086.2523" y="766.8781" width="130.4209" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1091.2523 771.8781)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="49.40869" y="10">TSP</tspan>
+          </text>
+        </g>
+        <g id="Graphic_133">
+          <rect x="1086.2523" y="790.8781" width="130.4209" height="33.125" fill="#fee0e5"/>
+          <rect x="1086.2523" y="790.8781" width="130.4209" height="33.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1091.2523 795.8781)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># dist: Real[][]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># opt: Route_TSP[]</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_153">
+        <g id="Graphic_155">
+          <rect x="1243.2523" y="879.0874" width="135.48572" height="57.125" fill="#fee0e5"/>
+          <rect x="1243.2523" y="879.0874" width="135.48572" height="57.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1248.2523 884.0874)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># trans: Real[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21"># scale: Real[]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33"># bias: Real</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45"># rotate: Real[][]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_154">
+          <rect x="1243.2523" y="855.0874" width="135.48572" height="24" fill="#fee0e5"/>
+          <rect x="1243.2523" y="855.0874" width="135.48572" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1248.2523 860.0874)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="33.93817" y="10">Function</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_156">
+        <path d="M 1310.9952 766.8781 L 1310.9952 747.3781 L 1230.6125 747.3781 L 1230.6125 721" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_157">
+        <line x1="1310.9952" y1="855.0874" x2="1310.9952" y2="837.3781" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_158">
+        <rect x="1247.0523" y="972.2652" width="60.16358" height="30" fill="#fee0e5"/>
+        <rect x="1247.0523" y="972.2652" width="60.16358" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1252.0523 980.2652)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="3.4782753" y="10">Sphere</tspan>
+        </text>
+      </g>
+      <g id="Graphic_159">
+        <rect x="1315.0523" y="972.2652" width="60.16358" height="30" fill="#fee0e5"/>
+        <rect x="1315.0523" y="972.2652" width="60.16358" height="30" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1320.0523 980.2652)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="3.4782753" y="10">Discus</tspan>
+        </text>
+      </g>
+      <g id="Line_160">
+        <path d="M 1151.4627 766.8781 L 1151.4627 747.3781 L 1230.6125 747.3781 L 1230.6125 721" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_161">
+        <path d="M 1277.1341 972.2652 L 1277.1341 956.7652 L 1310.9952 956.7652 L 1310.9952 949.7124" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_162">
+        <path d="M 1345.1341 972.2652 L 1345.1341 956.7652 L 1310.9952 956.7652 L 1310.9952 949.7124" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Random">
+      <title>Random</title>
+      <g id="Group_178">
+        <g id="Graphic_185">
+          <rect x="466.7674" y="1227" width="119.23258" height="23" fill="#f8f0d7"/>
+          <rect x="466.7674" y="1227" width="119.23258" height="23" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(471.7674 1232)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ next(): Double</tspan>
+          </text>
+        </g>
+        <g id="Graphic_180">
+          <rect x="466.7674" y="1180" width="119.23258" height="24" fill="#f8f0d7"/>
+          <rect x="466.7674" y="1180" width="119.23258" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(471.7674 1185)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="33.012775" y="10">Random</tspan>
+          </text>
+        </g>
+        <g id="Graphic_179">
+          <rect x="466.7674" y="1204" width="119.23258" height="23" fill="#f8f0d7"/>
+          <rect x="466.7674" y="1204" width="119.23258" height="23" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(471.7674 1209)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9"># seed: Double</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_181">
+        <g id="Graphic_186">
+          <rect x="645.0719" y="1183.4658" width="150" height="92" fill="#f8f0d7"/>
+          <rect x="645.0719" y="1183.4658" width="150" height="92" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(650.0719 1188.4658)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ shuffle&lt;T&gt;(arr:T[])</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ next_non_std&lt;T&gt;(</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">  min:T, max:T): T</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45">+ next_elem&lt;T&gt;(</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="57">  arr:T[]): T</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="69">+ roulette_wheel&lt;T&gt;(</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="81">  arr:T[]): T</tspan>
+          </text>
+        </g>
+        <g id="Graphic_183">
+          <rect x="645.0719" y="1154.5" width="150" height="24" fill="#f8f0d7"/>
+          <rect x="645.0719" y="1154.5" width="150" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(650.0719 1159.5)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="44.7959" y="10">Uniform</tspan>
+          </text>
+        </g>
+        <g id="Graphic_182">
+          <rect x="645.0719" y="1178.5" width="150" height="4.965839" fill="#f8f0d7"/>
+          <rect x="645.0719" y="1178.5" width="150" height="4.965839" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Group_187">
+        <g id="Graphic_190">
+          <rect x="644.96354" y="1316.0037" width="150" height="32" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1316.0037" width="150" height="32" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(649.96354 1321.0037)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ next_non_std&lt;T&gt;(</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">  mean:T, var:T): T</tspan>
+          </text>
+        </g>
+        <g id="Graphic_189">
+          <rect x="644.96354" y="1286.4963" width="150" height="24" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1286.4963" width="150" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(649.96354 1291.4963)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="48.396484" y="10">Normal</tspan>
+          </text>
+        </g>
+        <g id="Graphic_188">
+          <rect x="644.96354" y="1310.4963" width="150" height="5.507391" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1310.4963" width="150" height="5.507391" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Group_195">
+        <g id="Graphic_197">
+          <rect x="466.7674" y="1283.6298" width="119.23258" height="24" fill="#f8f0d7"/>
+          <rect x="466.7674" y="1283.6298" width="119.23258" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(471.7674 1288.6298)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="25.811604" y="10">Positive</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_199">
+        <g id="Graphic_200">
+          <rect x="466.7674" y="1341.2596" width="119.23258" height="24" fill="#f8f0d7"/>
+          <rect x="466.7674" y="1341.2596" width="119.23258" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(471.7674 1346.2596)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-style="italic" font-weight="700" fill="black" x="22.211018" y="10">Symmetric</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_201">
+        <g id="Graphic_204">
+          <rect x="644.96354" y="1388.9204" width="150" height="32" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1388.9204" width="150" height="32" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(649.96354 1393.9204)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ next_non_std&lt;T&gt;(</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">  mean:T, var:T): T</tspan>
+          </text>
+        </g>
+        <g id="Graphic_203">
+          <rect x="644.96354" y="1359.413" width="150" height="24" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1359.413" width="150" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(649.96354 1364.413)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="48.396484" y="10">Cauchy</tspan>
+          </text>
+        </g>
+        <g id="Graphic_202">
+          <rect x="644.96354" y="1383.413" width="150" height="5.507391" fill="#f8f0d7"/>
+          <rect x="644.96354" y="1383.413" width="150" height="5.507391" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Line_205">
+        <path d="M 645.0719 1214.9829 L 629.5719 1214.9829 L 601.5 1215 L 599.5 1215" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_206">
+        <line x1="526.3837" y1="1283.6298" x2="526.3837" y2="1263.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_207">
+        <path d="M 644.96354 1332.6268 L 615.46354 1332.6268 L 615.46354 1353.2596 L 599.5 1353.2596" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_208">
+        <path d="M 644.96354 1374.7898 L 615.46354 1374.7898 L 615.46354 1353.2596 L 599.5 1353.2596" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_209">
+        <line x1="526.3837" y1="1341.2596" x2="526.3837" y2="1321.1298" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_214">
+        <line x1="910.0062" y1="1313.9204" x2="910.0062" y2="1256.9" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Global">
+      <title>Global</title>
+      <g id="Group_175">
+        <g id="Graphic_177">
+          <rect x="844.7958" y="1313.9204" width="130.4209" height="24" fill="#e2e6ed"/>
+          <rect x="844.7958" y="1313.9204" width="130.4209" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(849.7958 1318.9204)" fill="black">
+            <tspan font-family="Courier New" font-size="12" font-weight="700" fill="black" x="38.606934" y="10">global</tspan>
+          </text>
+        </g>
+        <g id="Graphic_176">
+          <rect x="844.7958" y="1337.9204" width="130.4209" height="83" fill="#e2e6ed"/>
+          <rect x="844.7958" y="1337.9204" width="130.4209" height="83" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(849.7958 1342.9204)" fill="black">
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="9">+ run_ID: Int</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="21">+ pro: Problem</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="33">+ alg: Algorithm</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="45">+ uni: Uniform[2]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="57">+ nor: Normal[2]</tspan>
+            <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="0" y="69">+ cau: Cauchy[2]</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

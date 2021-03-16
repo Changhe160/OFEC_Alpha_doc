@@ -1,5 +1,5 @@
 ---
-title: Problem list
+title: List of Problems
 category: Tutorial
 order: 3
 ---

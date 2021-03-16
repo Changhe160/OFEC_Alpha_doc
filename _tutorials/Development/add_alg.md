@@ -1,5 +1,5 @@
 ---
-title: Adding algorithm
+title: Add Algorithm
 category: Development
 order: 4
 ---

@@ -1,5 +1,5 @@
 ---
-title: Algorithm list
+title: List of Algorithms
 category: Tutorial
 order: 4
 ---

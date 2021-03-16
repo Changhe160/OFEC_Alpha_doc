@@ -1,5 +1,5 @@
 ---
-title: Command line argument list
+title: List of Cmd Line Args
 category: Tutorial
 order: 5
 ---
